@@ -1,0 +1,23 @@
+<http://dilab77.ionio.gr/sw/p14sken/myvocab#Course> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dilab77.ionio.gr/sw/p14sken/myvocab#Professor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dilab77.ionio.gr/sw/p14sken/myvocab#Room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://dilab77.ionio.gr/sw/p14sken/myvocab#Lecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+
+
+voc: ΔΙΔΑΣΚΩΝ rdfs: domain voc: Lecture .
+voc: ΔΙΔΑΣΚΩΝ rdfs: range voc: Professor .
+
+voc: ΗΜΕΡΑ rdfs: domain voc: Lecture .
+voc: ΗΜΕΡΑ rdfs: range xsd: string .
+
+voc: ΕΝΑΡΞΗ rdfs: domain voc: Lecture .
+voc: ΕΝΑΡΞΗ rdfs: range xsd: time .
+
+voc: ΛΗΞΗ rdfs: domain voc: Lecture .
+voc: ΛΗΞΗ rdfs: range xsd: time.
+
+voc: ΜΑΘΗΜΑ rdfs: domain voc: Lecture .
+voc: ΜΑΘΗΜΑ rdfs: range voc: Course .
+
+voc: ΑΙΘΟΥΣΑ rdfs: domain voc: Lecture .
+voc: ΑΙΘΟΥΣΑ rdfs: range voc: Room .
